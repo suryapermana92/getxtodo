@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "385511571276",
+    "firebase_url": "https://getxtodo-a51c2-default-rtdb.firebaseio.com",
+    "project_id": "getxtodo-a51c2",
+    "storage_bucket": "getxtodo-a51c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385511571276:android:985ea0a07c618bd44f19e9",
+        "android_client_info": {
+          "package_name": "com.silversun.getxtodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385511571276-r7q9n147a8epe710kouar094imts2l14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHnDuUNb-pgHe0I86gt-syBIgStSDCklg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385511571276-r7q9n147a8epe710kouar094imts2l14.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
