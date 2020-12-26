@@ -48,18 +48,34 @@ class AppDrawer extends StatelessWidget {
           onTap: () {
             Get.offAllNamed("/");
           },
-          title: Text("Switch to Snap Sell"),
+          title: Text("Switch to Todo App"),
           trailing: Icon(Icons.camera),
         ),
         Divider(),
         ListTile(
           onTap: () {
-            Get.offAllNamed("/todos");
+            Get.toNamed("/events");
           },
-          title: Text("Switch to Todo App"),
-          trailing: Icon(Icons.swap_horizontal_circle),
+          title: Text("See all events"),
+          trailing: Icon(Icons.event),
         ),
         Divider(),
+        ListTile(
+          onTap: () {
+            Get.toNamed("/theme");
+          },
+          title: Text("Change App Theme"),
+          trailing: Icon(Icons.swap_horiz),
+        ),
+        Divider(),
+//        ListTile(
+//          onTap: () {
+//            Get.offAllNamed("/todos");
+//          },
+//          title: Text("Switch to Snap Sell"),
+//          trailing: Icon(Icons.swap_horizontal_circle),
+//        ),
+//        Divider(),
         ListTile(
           onTap: () {
             authController.handleSignOut();

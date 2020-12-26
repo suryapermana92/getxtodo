@@ -2,9 +2,11 @@ import 'package:get/get.dart';
 import 'package:getxtodo/todo/views/add_to_do.dart';
 import 'package:getxtodo/todo/views/edit_to_do.dart';
 import 'package:getxtodo/todo/views/todolist.dart';
+import 'package:getxtodo/views/events.dart';
 import 'package:getxtodo/views/login.dart';
 import 'package:getxtodo/views/register.dart';
 import 'package:getxtodo/views/splash_screen.dart';
+import 'package:getxtodo/views/theme_page.dart';
 
 class AppRoutes {
   static final routes = [
@@ -31,6 +33,14 @@ class AppRoutes {
     GetPage(
       name: '/add-todo',
       page: () => AddTodo(),
+    ),
+    GetPage(
+      name: '/events',
+      page: () => EventsPage(),
+    ),
+    GetPage(
+      name: '/theme',
+      page: () => ThemePage(),
     ),
   ];
 }
